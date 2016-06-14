@@ -1,36 +1,49 @@
 /* Style for Google home page */
 
 body {
-	font-family : calibri;
+	font-family: freesans;
 	font-size : 13px;
 }
 
 .google {
-	border : 1px solid black;
+	width : auto;
+	height : auto;
 }
 
 .header {
-	border : 1px solid black;
 	display : block;
 	height : 20px;
 	position : absolute;
 	right : 20px;
+	top : 5px;
+}
+
+.main {
+	margin : 150px 0 0 0;
 }
 
 a {
-	color : grey;
+	color : black;
 	text-decoration : none;
-	font-style: bold;
+	margin-left : 10px;
+}
+
+a:hover {
+	text-decoration : underline;
 }
 
 img {
-	width : 400px;
-	height : 225px;
+	width : 375px;
+	height : 200px;
+}
+
+div.header {
+	height : 35px;
+	padding : 5px 0 0 0;
 }
 
 .logo {
-	border : 1px solid black;
-	height : 225px;
+	height : 200px;
 	width : 400px;
 	margin : 0 auto;
 	display : block;
@@ -38,7 +51,6 @@ img {
 }
 
 div.search {
-	border : 1px solid black;
 	width : 400px;
 	height : 100px;
 	margin : 0 auto;
@@ -47,7 +59,7 @@ div.search {
 #search_input {
 	display : block;
 	width : 395px;
-	margin : 5px auto 0 auto;
+	margin : 0 auto 0 auto;
 	border : solid 1px grey;
 	border-radius : 0;
 	height : 30px;
@@ -58,14 +70,13 @@ div.search {
 }
 
 #search_input:focus {
-	border : solid 1px blue;
+	border : solid 1px #4485f6; 
 }
 
 div.search_buttons {
-	border : solid 1px black;
 	height : 50px;
 	width : 395px;
-	margin : 5px auto 0 auto;
+	margin : 10px auto 0 auto;
 	font-weight : bold;
 }
 
@@ -74,13 +85,47 @@ div.search_buttons {
 	height : 40px;
 	border-radius : 0;
 	border : none;
+	border-radius : 1px;
 	font-size : 14px;
-	font-weight : bold;
+	font-weight: bold;
 	color : grey;
 }
 
 .search_button:hover {
-	border : solid 1px black;
+	border : solid 1px #f0f0f0;
 	cursor : pointer;
-	color : black;
+	}
+
+#signin {
+	background : #4485f6;
+	color : white;
+	display : inline-block;
+	text-align : center; 
+	width : 80px;
+	height : 25px;
+	text-decoration : none;
+	padding : 10px 0 0 0;
+	font-weight : bold;
+	font-size : 12px;
+	border : none;
+	border-radius : 2px;
+}
+
+#signin:hover {
+	box-shadow: #F2F2F2 1px 1px;
+}
+
+div.footer{
+	border : 2px solid #f2f2f2;
+	height : 30px;
+ 	padding : 10px 0 0 0;
+ 	position : absolute;
+ 	bottom : 0;
+ 	background : #f2f2f2;
+    width : 1290px;
+ }
+
+ .footer a {
+ 	color : #494949;
+ 	font-size : 13px;
 }
