@@ -1,0 +1,86 @@
+/* Style for Google home page */
+
+body {
+	font-family : calibri;
+	font-size : 13px;
+}
+
+.google {
+	border : 1px solid black;
+}
+
+.header {
+	border : 1px solid black;
+	display : block;
+	height : 20px;
+	position : absolute;
+	right : 20px;
+}
+
+a {
+	color : grey;
+	text-decoration : none;
+	font-style: bold;
+}
+
+img {
+	width : 400px;
+	height : 225px;
+}
+
+.logo {
+	border : 1px solid black;
+	height : 225px;
+	width : 400px;
+	margin : 0 auto;
+	display : block;
+	text-align : center;
+}
+
+div.search {
+	border : 1px solid black;
+	width : 400px;
+	height : 100px;
+	margin : 0 auto;
+}
+
+#search_input {
+	display : block;
+	width : 395px;
+	margin : 5px auto 0 auto;
+	border : solid 1px grey;
+	border-radius : 0;
+	height : 30px;
+}
+
+#search_input:hover {
+	border : solid 1px black;
+}
+
+#search_input:focus {
+	border : solid 1px blue;
+}
+
+div.search_buttons {
+	border : solid 1px black;
+	height : 50px;
+	width : 395px;
+	margin : 5px auto 0 auto;
+	font-weight : bold;
+}
+
+.search_button {
+	width : 195px;
+	height : 40px;
+	border-radius : 0;
+	border : none;
+	font-size : 14px;
+	font-weight : bold;
+	color : grey;
+}
+
+.search_button:hover {
+	border : solid 1px black;
+	cursor : pointer;
+	color : black;
+}
